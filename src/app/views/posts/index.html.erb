@@ -1,6 +1,8 @@
 <div>　　</div>
 
-<div id="content"><%= render 'content', posts: @posts %></div>
+<div id="content">
+  <%= render 'content', posts: @posts %>
+</div>
 
 <%= form_with model: @post, local: false do |f| %>
   <%= f.label :content %>
